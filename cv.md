@@ -95,7 +95,7 @@ Web-development
 *October 2009 to June 2011*  
 Basic English course
 
-## English level is A2-B1
+## ENGLISH LEVEL is A2-B1
 
 - **[Cambridge English test](www.cambridgeenglish.org)** -- A2 Key or B1 Preliminary.  
 - **[British Council test](https://learnenglish.britishcouncil.org/)** -- Intermediate.  
