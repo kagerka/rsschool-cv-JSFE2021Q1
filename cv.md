@@ -54,3 +54,49 @@ One of the many tasks we solved on this course:
   </body>
 </html>
 ```
+## WORK EXPERIENCE
+
+- **Universal Electronic Card**  
+*February 2013 - December 2019*  
+Company site administration, publishing information using 1C-Bitrix, including design and HTML coding.
+
+- **Promotion Group**  
+*November 2011 - February 2013*  
+SEO-optimization of web-pages for Yandex and Google search engines.
+
+
+- **TsNIGRI**  
+*November 2002 - November 2011*  
+The designer of printed products such as books, magazines, booklets, posters using Adobe In-Design, Adobe Illustrator, Adobe Photoshop.
+
+
+## EDUCATION
+
+### Bachelor courses:
+- **[Moscow State University of Printing Arts](http://mgup.ru/)**  
+*September 2002 to June 2008*  
+Institute of Publishing and Journalism -- Publishing and editing
+
+### Additional education:
+
+- **[GeekBrains](https://geekbrains.ru/)**  
+*April 2020*  
+HTML&CSS
+
+- **[National Platform of Open Education](https://openedu.ru/)**  
+*February 2020 to April 2020*  
+Online course of Web-development
+
+- **[Training center "Professional"](https://eduprof.ru/)**  
+*September 2019 to November 2019*  
+Web-development
+
+- **[Moscow Institute of Foreign Languages](http://www.mosinyaz.com/)**  
+*October 2009 to June 2011*  
+Basic English course
+
+## English level is A2-B1
+
+- **[Cambridge English test](www.cambridgeenglish.org)** -- A2 Key or B1 Preliminary.  
+- **[British Council test](https://learnenglish.britishcouncil.org/)** -- Intermediate.  
+- **[EF test](www.efset.org)** -- Intermediate.
