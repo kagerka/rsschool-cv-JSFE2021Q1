@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+/* 
+========================================
+Grid Layout
+========================================
+*/
+
+main {
+  display: grid;
+  grid-template-areas:
+    "left-side right-side";
+  grid-template-rows: 1fr;
+  grid-template-columns: 300px 2fr;
+  gap: 0px;
+  margin: 0;
+}
+
+.left {
+  grid-area: left-side;
+  display: grid;
+  grid-template-areas:
+    "avatar"
+    "summary"
+    "skills"
+    "english";
+  grid-template-columns: 1fr;
+  gap: 0px;
+  height: 100%;
+  align-content: start;
+}
+
+.left img {
+  grid-area: avatar;
+}
+
+.summary {
+  grid-area: summary;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.english {
+  grid-area: english;
+}
+
+.right {
+  grid-area: right-side;
+  display: grid;
+  grid-template-areas:
+    "contacts"
+    "education"
+    "work"
+    "code";
+  grid-template-columns: 1fr;
+  gap: 0px;
+  height: 100%;
+  align-content: start;
+}
+
+.contacts {
+  grid-area: contacts;
+}
+
+.education {
+  grid-area: education;
+}
+
+.work {
+  grid-area: work;
+}
+
+.code {
+  grid-area: code;
+}
+
+.contact-data {
+  display: grid;
+  grid-template-areas:
+    "phone email"
+    "telegram discord";
+  grid-template-columns: 2fr;
+  gap: 0 20px;
+}
+
+.phone-number {
+  grid-area: phone;
+}
+
+.email-address {
+  grid-area: email;
+}
+
+.telegram-link {
+  grid-area: telegram;
+}
+
+.discord-name {
+  grid-area: discord;
+}
+
+/* 
+========================================
+Base Styles
+========================================
+*/
+
+body {
+  background: #4545451a;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+main {
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 50px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.left {
+  padding: 70px 50px;
+  background: #e0e1e5;
+}
+
+img.avatar {
+  margin-left: -25px;
+  margin-bottom: 100px;
+}
+
+.right {
+  padding-left: 50px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.contacts {
+  background: #464646;
+  padding: 60px 26px;
+  margin-bottom: 40px;
+}
+
+.contact-data {
+  font-family: 'Khand', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  padding: 0 20px;
+}
+
+.contact-data img {
+  margin-right: 20px;
+}
+
+.contact-data div {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  ;
+}
+
+h1 {
+  font-family: 'Khand', sans-serif;
+  font-size: 50px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid #ffffff;
+  width: 200px;
+  margin: 40px auto;
+}
+
+
+
+h2 {
+  font-family: 'Khand', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #464646;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #464646;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: #464646;
+}
+
+.summary p {
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style: none;
+  line-height: 2rem;
+  margin-bottom: 20px;
+}
+
+.skills img {
+  float: right;
+  margin-left: 5px;
+  margin-top: 12px;
+}
+
+.english ul {
+  list-style: none;
+  line-height: 1rem;
+}
+
+.english li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.english ul li span {
+  display: inline-block;
+  padding: 4px 10px;
+  color: #ffffff;
+  background: #464646;
+}
+
+.education p,
+.work p {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.education hr {
+  margin: 20px 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 1px dashed #b0b0b0;
+}
+
+.italic {
+  font-style: italic;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+p a,
+p a:link,
+p a:visited {
+  color: #464646;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px dashed #464646;
+}
+
+p a:hover {
+  color: #679c16;
+  border-bottom: 1px dashed#679c16;
+}
+
+h3 a,
+li a {
+  text-decoration: none;
+  color: #464646;
+}
+
+h3 a:hover,
+li a:hover {
+  color: #679c16;
+  border-bottom: 1px dashed#679c16;
+}
+
+.contact-data a,
+.contact-data a:link,
+.contact-data a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-data a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
