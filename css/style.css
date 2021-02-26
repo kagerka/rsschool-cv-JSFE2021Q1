@@ -108,18 +108,19 @@ Base Styles
 */
 
 body {
+  max-width: 1024px;
+  margin: 0 auto;
   background: #4545451a;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 14px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 main {
-  max-width: 1024px;
-  margin: auto;
   padding: 0 50px;
+  padding-bottom: 50px;
   background: #ffffff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -148,6 +149,7 @@ section {
 }
 
 .contact-data {
+  margin-top: 60px;
   font-family: 'Khand', sans-serif;
   font-weight: 100;
   font-size: 20px;
@@ -156,8 +158,32 @@ section {
   padding: 0 20px;
 }
 
+.contact-data ul {
+  display: flex;
+  height: 86px;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.contact-data li {
+  list-style: none;
+}
+
+.contact-data li a {
+  display: flex;
+  align-items: center;
+}
+
+.contact-data li a:hover {
+  color: #ff9f1a;
+}
+
 .contact-data img {
   margin-right: 20px;
+}
+
+.phone-number {
+  padding-right: 40px;
 }
 
 .contact-data div {
@@ -165,7 +191,6 @@ section {
   display: flex;
   align-items: center;
   white-space: nowrap;
-  ;
 }
 
 h1 {
@@ -185,7 +210,6 @@ h1::after {
   width: 200px;
   margin: 40px auto;
 }
-
 
 
 h2 {
@@ -278,8 +302,8 @@ p a:visited {
 }
 
 p a:hover {
-  color: #679c16;
-  border-bottom: 1px dashed#679c16;
+  color: #ff9f1a;
+  border-bottom: 1px dashed#ff9f1a;
 }
 
 h3 a,
@@ -289,9 +313,9 @@ li a {
 }
 
 h3 a:hover,
-li a:hover {
-  color: #679c16;
-  border-bottom: 1px dashed#679c16;
+.english li a:hover {
+  color: #ff9f1a;
+  border-bottom: 1px dashed#ff9f1a;
 }
 
 .contact-data a,
@@ -304,4 +328,72 @@ li a:hover {
 .contact-data a:hover {
   color: #ffffff;
   text-decoration: none;
+}
+
+footer {
+  background: #464646;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a,
+footer a:link,
+footer a:visited {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.github-icon {
+  margin-right: 20px;
+}
+
+footer a:nth-of-type(2) img {
+  margin-top: -10px;
+}
+
+footer time {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.year {
+  overflow: hidden;
+  text-align: center;
+  width: 300px;
+}
+
+.year time {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+
+.year::before,
+.year::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+  height: 1px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.year::before {
+  margin-left: -50%;
+  left: -14px;
+}
+
+.year::after {
+  margin-right: -50%;
+  right: -14px;
 }
