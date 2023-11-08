@@ -1,4 +1,4 @@
 # rsschool-cv
-Markdown CV: https://kagerka.github.io/rsschool-cv/cv
+Markdown CV: https://kagerka.github.io/rsschool-cv-JSFE2021Q1/cv
 
-HTML&CSS CV: https://kagerka.github.io/rsschool-cv/
+HTML&CSS CV: https://kagerka.github.io/rsschool-cv-JSFE2021Q1/
